@@ -1,0 +1,30 @@
+# Starter Workflow: Automating CI/CD with GitHub Actions
+#
+# Save this file as .github/workflows/ci.yml in your repository.
+# Fill in the TODO steps to complete the pipeline.
+
+# name: CI
+#
+# on: [push, pull_request]
+#
+# jobs:
+#   ci:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Check out code
+#         uses: actions/checkout@v4
+#
+#       - name: Set up Python
+#         uses: actions/setup-python@v5
+#         with:
+#           python-version: "3.12"
+#
+#       - name: Install dependencies
+#         run: |
+#           pip install pytest ruff
+#
+#       # TODO: Add a step to run pytest
+#       # Hint: run: pytest -v
+#
+#       # TODO: Add a step to run ruff
+#       # Hint: run: ruff check .

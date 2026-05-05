@@ -72,6 +72,34 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "testing-with-pytest",
+      "title": "Testing Python Code with pytest",
+      "description": "Write and run automated tests for Python functions using pytest, covering normal cases and edge cases.",
+      "path": "assignments/testing-with-pytest",
+      "dueDate": "2026-05-12",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
+    },
+    {
+      "id": "github-actions-cicd",
+      "title": "Automating CI/CD with GitHub Actions",
+      "description": "Create a GitHub Actions workflow that runs pytest and ruff automatically on every push.",
+      "path": "assignments/github-actions-cicd",
+      "dueDate": "2026-05-12",
+      "attachments": [
+        {
+          "name": "Starter Workflow",
+          "file": "starter-workflow.yml",
+          "type": "yaml"
+        }
+      ]
     }
   ]
 }
